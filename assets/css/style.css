@@ -1,0 +1,157 @@
+
+.containBody {
+  padding: 20px;
+  margin: auto;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background: #ededed;
+  width: 960px;
+}
+
+header, nav {
+  margin-top: 20px;
+  width: 960px;
+  background: #d21034;
+}
+
+h1, nav {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: white;
+  text-align: left;
+  background: #4aaaa5;
+}
+
+h1 {
+  text-align: center;
+  width: 200px;
+  background-color: #4aaaa5;
+  height: 50px;
+  padding-top: 20px
+}
+
+footer { 
+    display: block;
+    background-color: #666666;
+    width: 960px;
+    height: 50px;
+    text-align: center;
+    color: #eee;
+    font-size: 12px;
+    padding-top: 40px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+a {
+  color: black;
+}
+
+article {
+  background-color: white;
+  padding: 10px;
+}
+
+img {
+    float: left;
+    margin: 0 10px 10px 0px;
+}
+
+.clearfix {
+  
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.contact {
+  margin: 20px 20px 20px 20px;
+}
+
+.menu {
+  text-align: right;
+  font-size: 18px;
+  color: green;
+}
+
+#section,
+#aside {
+  margin-top: 20px;
+  float: left;
+}
+
+#section {
+
+  margin-right: 20px;
+  text-align: left;
+  background-color: white;
+  width: 670px;
+  height: 600px;
+}
+
+#aside {
+  background-color: white;
+  width: 270px;
+  height: 150px;
+}
+
+.nameHeader {
+  
+  background-color: yellow;
+  margin-bottom: 30px; 
+}
+
+#name1, #linkPages {
+  float: left;
+  background-color: white;
+  padding-bottom: 20px;
+  height: 50px;
+  padding-top: 5px;
+}
+
+#name1 {
+  width: 760px;
+}
+
+#linkPages {
+  width: 200px;
+}
+
+.about {
+  margin: 0 10px 0 10px;
+}
+
+@media screen and (max-width: 959px) {
+  .containBody {
+    width: 100%;
+  }
+  
+  #section {
+    width: 95%;
+    height: 100%;
+  }
+
+  #aside {
+    width: 95%;
+    height: 100%;
+  }
+
+  #name1 {
+    width: 65%
+  }
+
+  #linkPages {
+    width: 30%;
+  }
+  
+  footer {
+    width: 95%;
+  }
+}
+
+
+
