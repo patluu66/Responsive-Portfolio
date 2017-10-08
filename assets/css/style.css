@@ -2,7 +2,7 @@
 .containBody {
   padding: 20px;
   margin: auto;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Lobster Two', cursive;
   font-size: 18px;
   line-height: 150%;
   color: #333;
@@ -42,6 +42,7 @@ footer {
     color: #eee;
     font-size: 12px;
     padding-top: 40px;
+    border-top: 10px solid #4aaaa5;
 }
 
 h2 {
@@ -125,7 +126,8 @@ img {
   margin: 0 10px 0 10px;
 }
 
-@media screen and (max-width: 959px) {
+
+@media screen and (max-width: 768px) {
   .containBody {
     width: 100%;
   }
@@ -153,5 +155,32 @@ img {
   }
 }
 
+@media screen and (max-width: 640px) {
+  .containBody {
+    width: 100%;
+  }
+  
+  #section {
+    width: 95%;
+    height: 100%;
+  }
+
+  #aside {
+    width: 95%;
+    height: 100%;
+  }
+
+  #name1 {
+    width: 65%
+  }
+
+  #linkPages {
+    width: 30%;
+  }
+  
+  footer {
+    width: 95%;
+  }
+}
 
 
